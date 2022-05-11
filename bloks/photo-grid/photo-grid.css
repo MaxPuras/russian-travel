@@ -1,0 +1,12 @@
+.photo-grid{
+  display: grid;
+  justify-content: space-around;
+  width: 1184px;
+  height: 671px;
+  margin-top: 92px;
+  margin-left: 48px;
+  margin-right: 48px;
+  gap: 16px;
+  grid-template-columns: repeat(4, 284px);
+  grid-template-rows: auto;
+}

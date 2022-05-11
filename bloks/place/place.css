@@ -1,0 +1,11 @@
+.place{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 984px;
+  height: 660px;
+}
+
+.place:not(:last-child){
+  margin-bottom: 80px;
+}
