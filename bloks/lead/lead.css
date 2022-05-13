@@ -1,9 +1,24 @@
 .lead {
-  display: flex;
-  flex-direction: column;
-  width: 984px;
-  height: 1005px;
-  margin-top: 56px;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 100%;
+  width: calc(100% - 196px);
+  align-items: end;
+  padding: 56px 0 0 0;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media screen and (max-width: 1023px) {
+  .lead {
+    padding: 48px 0 0 0;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .lead {
+    padding: 48px 0 0 0;
+    width: calc(100% - 96px);
+  }
 }

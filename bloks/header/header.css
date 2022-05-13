@@ -1,10 +1,22 @@
-.header{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 1184px;
-  height: 52px;
-  margin-left: 48px;
-  margin-right: 48px;
+.header {
+  display: grid;
   margin-top: 28px;
+  width: calc(100% - 96px);
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    margin-top: 16px;
+    width: calc(100% - 32px);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .header {
+    width: calc(100% - 48px);
+  }
 }

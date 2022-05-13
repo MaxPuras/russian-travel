@@ -1,13 +1,14 @@
-.place__paragraph{
-  width: 484px;
-  height: 145px;
-
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 163%;
- color: #FFFFFF;
+.place__paragraph {
+  margin: 0;
 }
 
-.place__paragraph:not(:first-child){
+.place__paragraph:not(:first-child) {
   margin-top: 26px;
+}
+
+@media screen and (max-width: 767px) {
+  .place__paragraph {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
 }
