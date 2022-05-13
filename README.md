@@ -12,3 +12,6 @@ CSS3 - Медиазапросы
 
 #### Запуск проекта:
 Запустить в браузере файл index.html
+
+## Ссылка на GitHub Pages
+https://maxpuras.github.io/russian-travel/index.html
