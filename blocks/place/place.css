@@ -15,7 +15,6 @@
   }
 
   .place {
-    margin-bottom: 80px;
     margin-right: 0;
     margin-left: 0;
     gap: 32px;
@@ -27,5 +26,15 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .place:not(:last-child) {
     margin-bottom: 73px;
+  }
+
+  .place{
+    gap: 48px 28px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .place  {
+    gap: 48px 32px;
   }
 }
